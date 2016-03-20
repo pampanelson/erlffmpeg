@@ -4,7 +4,8 @@ DEPS = lager ucp jsx edown
 dep_lager = git https://github.com/basho/lager.git master
 dep_ucp = git https://github.com/glejeune/UnicodeCodePoints.git master
 dep_jsx = git https://github.com/talentdeficit/jsx.git master
-dep_edown = git https://github.com/homeswap/edown.git master
+# dep_edown = git https://github.com/homeswap/edown.git master
+dep_edown = git https://github.com/uwiger/edown.git master
 
 include erlang.mk
 
